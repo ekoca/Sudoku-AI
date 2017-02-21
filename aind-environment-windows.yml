@@ -1,4 +1,4 @@
-name: aind
+name: sudoku-ai
 channels:
 - defaults
 dependencies:
