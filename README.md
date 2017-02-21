@@ -38,3 +38,21 @@ The data consists of a text file of diagonal sudokus for you to solve.
 * `Activate the env` - source activate aind
 * `Run the unit test` - python solution_test.py (Please make sure you are in the project folder. Check 'pwd' command)
 * `Deactivate the env` - source deactivate aind
+
+### Dependecies
+- mkl=2017.0.1=0
+- numpy=1.11.3=py36_0
+- openssl=1.0.2j=0
+- pip=9.0.1=py36_1
+- python=3.6.0=0
+- readline=6.2=2
+- scikit-learn=0.18.1=np111py36_1
+- scipy=0.18.1=np111py36_1
+- setuptools=27.2.0=py36_0
+- sqlite=3.13.0=0
+- tk=8.5.18=0
+- wheel=0.29.0=py36_0
+- xz=5.2.2=0
+- zlib=1.2.8=3
+- pip:
+  - hmmlearn==0.2.0
