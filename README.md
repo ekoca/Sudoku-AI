@@ -16,8 +16,8 @@ This project requires **Python 3**.
 I recommend you install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project.
 
 Please try using the environment provided for unix or windows:
-* `Unix env` - aind-environment-unix.yml
-* `Windows env` - aind-environment-windows.yml
+* `Unix env` - sudoku-ai-environment-unix.yml
+* `Windows env` - sudoku-ai-environment-windows.yml
 
 ##### Optional: Pygame
 
@@ -32,3 +32,9 @@ The data consists of a text file of diagonal sudokus for you to solve.
 ### Code
 * `solutions.py` - This is where we solve the sudoku problem.
 * `solution_test.py` - You can test the solution by running `python solution_test.py`. If you need to add more test cases, please feel free to add more.
+
+### Run the code on virtual env
+* `Create env` - conda env create -f sudoku-ai-environment-unix.yml
+* `Activate the env` - source activate aind
+* `Run the unit test` - python solution_test.py (Please make sure you are in the project folder. Check 'pwd' command)
+* `Deactivate the env` - source deactivate aind
