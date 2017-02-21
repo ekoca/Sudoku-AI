@@ -13,10 +13,11 @@ A: I added 2 main diagonal units to the unit list (unitlist). By going through a
 
 This project requires **Python 3**.
 
-I recommend you install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. 
+I recommend you install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project.
+
 Please try using the environment provided for unix or windows:
-# Unix env => aind-environment-unix
-# Windows env => aind-environment-windows
+* `Unix env` - aind-environment-unix.yml
+* `Windows env` - aind-environment-windows.yml
 
 ##### Optional: Pygame
 
