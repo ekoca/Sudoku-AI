@@ -1,4 +1,4 @@
-name: aind
+name: sudoku-ai
 channels: !!python/tuple
 - defaults
 dependencies:
