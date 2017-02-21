@@ -15,8 +15,8 @@ This project requires **Python 3**.
 
 I recommend you install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. 
 Please try using the environment provided for unix or windows:
-Unix env => aind-environment-unix
-Windows env => aind-environment-windows
+# Unix env => aind-environment-unix
+# Windows env => aind-environment-windows
 
 ##### Optional: Pygame
 
@@ -27,3 +27,7 @@ If not, please see how to download pygame [here](http://www.pygame.org/download.
 ### Data
 
 The data consists of a text file of diagonal sudokus for you to solve.
+
+### Code
+* `solutions.py` - This is where we solve the sudoku problem.
+* `solution_test.py` - You can test the solution by running `python solution_test.py`. If you need to add more test cases, please feel free to add more.
